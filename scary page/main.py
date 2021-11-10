@@ -1,6 +1,7 @@
 import pygame
 from time import sleep
 pygame.init()
+
 window = pygame.display.set_mode((0,0), pygame.FULLSCREEN)
 pygame.mixer.init()
 pygame.mixer.music.load('piano.mp3')
@@ -13,3 +14,4 @@ image = pygame.image.load('nun.jpg')
 window.blit(image, (0,0))
 pygame.display.update()
 sleep(4)
+
